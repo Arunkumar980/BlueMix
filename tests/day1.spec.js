@@ -9,13 +9,8 @@ test("test", async ({ page }) => {
   await page.waitForTimeout(3000)
  
    page.on('dialog', dialog => dialog.accept())
-   ;
 
-  await page.waitForTimeout(5000)
-
-
- 
- 
+  await page.waitForTimeout(5000);
   
 });
 test("method 4",()=>{
