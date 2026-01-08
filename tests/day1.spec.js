@@ -7,7 +7,8 @@ test("test", async ({ page }) => {
   
   await page.waitForTimeout(3000)
  
-   page.on('dialog', dialog => dialog.accept());
+   page.on('dialog', dialog => dialog.accept())
+   ;
 
 
   await page.waitForTimeout(5000)
