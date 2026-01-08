@@ -12,3 +12,13 @@ function method3(){
     
 }
 
+function method5(){
+    console.log("method5");
+    
+}
+function method6(){
+    console.log("method6");
+    
+}
+
+
